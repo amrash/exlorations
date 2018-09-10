@@ -1,0 +1,21 @@
+<html>
+	<head>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script src="p5/p5.min.js"></script>
+	</head>
+	<body>
+	  <div>hello World!</div>
+      <img style="height:100px" src="amreen.jpeg"/>
+        <script>
+        function setup (){
+            canvas = createCanvas(500,500);
+        }
+        function draw(){
+            for(var i=0;i<10; i++){
+                rect(mouseX+random(-20,20), mouseY+random(-20,20),10,10);
+            }
+            
+            
+        }</script>
+	</body>
+</html>
